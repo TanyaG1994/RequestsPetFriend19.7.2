@@ -41,7 +41,7 @@ def test_add_new_pet_with_invalid_animal_type(animal_type, name='Bobby', age=2, 
 
 @pytest.mark.parametrize("age", ["sd", "ит", "%&", "?!"])
 def test_add_new_pet_with_invalid_age(age, name='Bobby', animal_type='овчарка', pet_photo='images/cat.jpg'):
-    """Проверяем, что поле age для ввода возраста питомца не принимает на ввод буквы"""
+    """Проверяем, что поле age для ввода возраста питомца не принимает на ввод буквы, специальные символы, занки препинания."""
 
     pet_photo = os.path.join(os.path.dirname(__file__), pet_photo)
 
