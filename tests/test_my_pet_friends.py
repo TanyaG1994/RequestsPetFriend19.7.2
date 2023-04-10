@@ -134,7 +134,7 @@ F4KSHb3paVJLHHWEzLJA1D4GU2zgUVSsPjijIpPsmuMv24U67uepi48rNGbfbtjaDoKGNAJuhXKKFe95
 bnha2QwONlgvqeO9I9mV16mmAtkm7LZtnVevZY9hkfgz43NLET7Pp7y0VAIDTVrLXjy4e6yIy""", animal_type='сиамская', age=1, pet_photo='images/cat.jpg'):
 
 
-    """Проверяем, что поле name для ввода имени питомца принимает на ввод троку максимальной длины 256 символов"""
+    """Проверяем, что поле name для ввода имени питомца принимает на ввод cтроку максимальной длины 256 символов"""
 
     pet_photo = os.path.join(os.path.dirname(__file__), pet_photo)
 
